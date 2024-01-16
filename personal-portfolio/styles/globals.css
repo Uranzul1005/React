@@ -1,38 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.container {
-  width: 1440px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.menus {
-  display: flex;
-  gap: 20px;
-}
-
-.introduction {
-  display: flex;
-  justify-content: space-between;
-  padding: 96px, 80px, 96px, 80px;
-}
-
-.cover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.introduction.img {
-  width: 280px;
-  height: 320px;
-}
-
-.topic {
-  display: flex;
-}
