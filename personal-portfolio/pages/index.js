@@ -27,6 +27,14 @@ export default function Home() {
         </div>
         <Skill />
       </div>
+      <div className="bg-slate-50 lg:px-20 lg:py-24 pt-16">
+        <div className="flex flex-col items-center">
+          <Chip label="About me" />
+          <p className="mt-4 text-slate-500">
+            Here is a quick summary of my most recent experiences:
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

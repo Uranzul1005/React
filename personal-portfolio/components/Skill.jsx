@@ -1,11 +1,11 @@
 export function Skill() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <p className="mt-4">
+      <p className="mt-4 text-slate-500">
         The skills, tools and technologies I am really good at:
       </p>
       <div>
-        <div className="flex mt-6">
+        <div className="grid pt-8 md:grid-rows-2 md:grid-cols-8 gap-6 grid-rows-6 sm:grid-cols-3">
           <img src="/icons/JS.jpg" alt="javascript" />
           <img src="/icons/TS.jpg" alt="typescript" />
           <img src="/icons/React.jpg" alt="react" />
@@ -14,8 +14,6 @@ export function Skill() {
           <img src="/icons/Ex.jpg" alt="express" />
           <img src="/icons/Nest.jpg" alt="nest" />
           <img src="/icons/Socket.jpg" alt="socket" />
-        </div>
-        <div className="flex">
           <img src="/icons/SQL.jpg" alt="SQL" />
           <img src="/icons/Mongo.jpg" alt="mongo" />
           <img src="/icons/Sass.jpg" alt="sass" />
