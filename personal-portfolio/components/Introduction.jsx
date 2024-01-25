@@ -1,10 +1,10 @@
 export function Introduction() {
   return (
     <div className="px-4">
-      <h2 className="text-3xl font-semibold">
+      <h2 className="text-3xl font-semibold text-white">
         Curious about me? Here you have it:
       </h2>
-      <div className="text-slate-500 mt-6">
+      <div className="text-slate-500 mt-6 dark:text-slate-300">
         <p>
           I'm a passionate, self-proclaimed designer who specializes in full
           stack development (React.js & Node.js). I am very enthusiastic about

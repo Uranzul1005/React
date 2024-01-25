@@ -7,7 +7,7 @@ import { menuItems } from "@/data/menuItems";
 export function MainMenu({ items }) {
   return (
     <>
-      <div className="hidden sm:flex text-slate-500">
+      <div className="hidden sm:flex text-slate-500 dark:text-slate-300">
         {items.map((item) => (
           <a key={item.id} className="px-4 py-2" href={item.link}>
             {item.label}

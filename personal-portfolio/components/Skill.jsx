@@ -1,11 +1,11 @@
 export function Skill() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <p className="mt-4 text-slate-500">
+      <p className="mt-4 text-slate-500 dark:text-slate-300">
         The skills, tools and technologies I am really good at:
       </p>
       <div>
-        <div className="grid pt-8 md:grid-rows-2 md:grid-cols-8 gap-6 grid-rows-6 sm:grid-cols-3">
+        <div className="grid pt-8 md:grid-rows-2 md:grid-cols-8 gap-6 grid-rows-6 grid-cols-3">
           <img src="/icons/JS.jpg" alt="javascript" />
           <img src="/icons/TS.jpg" alt="typescript" />
           <img src="/icons/React.jpg" alt="react" />
