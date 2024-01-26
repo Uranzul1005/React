@@ -28,8 +28,10 @@ export function Experience() {
         <Exper1 />
       </div>
       <div className="md:flex-row justify-between mt-12 max-w-4xl items-start bg-white p-8 flex flex-col gap-4 md:gap-12 dark:bg-slate-900 rounded-xl">
-        <img src="./icons/logo-upwork.png" />
-        <p className="text-slate-500 md:order-1 dark:text-slate-300">
+        <div style={{ width: 239 }}>
+          <img src="./icons/logo-upwork.png" />
+        </div>
+        <p className="text-slate-500 md:order-1 dark:text-slate-300 w-52">
           Dec 2015 - May 2017
         </p>
         <Exper3 />

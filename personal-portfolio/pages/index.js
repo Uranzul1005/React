@@ -35,19 +35,20 @@ export default function Home() {
       <div className="flex flex-col items-center dark:bg-slate-950">
         <Experience />
       </div>
-
-      <Worksection />
-      <div className="md:flex px-16">
-        <Workimage />
-        <Workleft />
-      </div>
-      <div className="md:flex px-16 md:flex-row-reverse">
-        <Workimage />
-        <Workleft />
-      </div>
-      <div className="md:flex px-16">
-        <Workimage />
-        <Workleft />
+      <div className="px-20">
+        <Worksection />
+        <div className="md:flex px-16 ">
+          <Workimage />
+          <Workleft />
+        </div>
+        <div className="md:flex px-16 md:flex-row-reverse">
+          <Workimage />
+          <Workleft />
+        </div>
+        <div className="md:flex px-16">
+          <Workimage />
+          <Workleft />
+        </div>
       </div>
 
       <Endsection />

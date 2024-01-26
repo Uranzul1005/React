@@ -10,7 +10,7 @@ export function Endsection() {
   return (
     <div className="px-20 py-24 flex flex-col items-center ">
       <Chip label="Get in touch" />
-      <p className="mt-4 mb-12 text-slate-500 text-xl max-w-xl dark:text-slate-300">
+      <p className="mt-4 mb-12 text-slate-500 text-center text-xl max-w-xl dark:text-slate-300">
         What’s next? Feel free to reach out to me if you're looking for a
         developer, have a query, or simply want to connect.
       </p>
