@@ -1,10 +1,10 @@
 export function Introduction() {
   return (
     <div className="px-4">
-      <h2 className="text-3xl font-semibold text-white">
+      <p className="text-3xl font-semibold ">
         Curious about me? Here you have it:
-      </h2>
-      <div className="text-slate-500 mt-6 dark:text-slate-300">
+      </p>
+      <div className="text-slate-500 mt-6 text-base dark:text-slate-300">
         <p>
           I'm a passionate, self-proclaimed designer who specializes in full
           stack development (React.js & Node.js). I am very enthusiastic about
@@ -36,6 +36,17 @@ export function Introduction() {
         </p>
         <br />
         <p>Finally, some quick bits about me</p>
+        <br />
+        <div className="flex">
+          <div className="flex-1">
+            <li>B.E. in Computer Engineering</li>
+            <li>Full time freelancer</li>
+          </div>
+          <div className="flex-1">
+            <li>Avid learner</li>
+            <li>Aspiring indie hacker</li>
+          </div>
+        </div>
         <br />
         <p>
           One last thing, I'm available for freelance work, so feel free to

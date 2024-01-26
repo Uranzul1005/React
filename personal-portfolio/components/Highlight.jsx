@@ -11,7 +11,9 @@ export function Highlight() {
         <img className="max-w-none" src="/images/Pic.jpg" alt="profile" />
       </div>
       <div className="order-1 px-4">
-        <h2 className="text-6xl font-bold dark:text-white">Hi, I’m Sagar 👋</h2>
+        <p className="text-6xl font-bold dark:text-white mb-12">
+          Hi, I’m Sagar 👋
+        </p>
         <p className="mt-2 text-slate-500 dark:text-slate-300">
           I'm a full stack developer (React.js & Node.js) with a focus on
           creating (and occasionally designing) exceptional digital experiences

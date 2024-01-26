@@ -27,7 +27,7 @@ export function Endsection() {
       <p className="text-slate-500 mt-12 dark:text-slate-300">
         You may also find me on these platforms!
       </p>
-      <div className="flex gap-4">
+      <div className="flex gap-4 mt-2">
         <Github />
         <Twitter />
         <Figma />

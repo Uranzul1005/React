@@ -13,21 +13,21 @@ export function Experience() {
         </p>
       </div>
 
-      <div className="md:flex-row justify-between mt-12 max-w-4xl items-start bg-white p-8 flex flex-col gap-4 md:gap-12 dark:bg-slate-900">
+      <div className="md:flex-row justify-between mt-12 max-w-4xl items-start bg-white p-8 flex flex-col gap-4 md:gap-12 dark:bg-slate-900 rounded-xl">
         <img src="./icons/logo-upwork.png" />
         <p className="text-slate-500 md:order-1 dark:text-slate-300">
           Nov 2021 - Present
         </p>
         <Exper2 />
       </div>
-      <div className="md:flex-row justify-between mt-12 max-w-4xl items-start bg-white p-8 flex flex-col gap-4 md:gap-12 dark:bg-slate-900">
+      <div className="md:flex-row justify-between mt-12 max-w-4xl items-start bg-white p-8 flex flex-col gap-4 md:gap-12 dark:bg-slate-900 rounded-xl">
         <img src="./icons/logo-upwork.png" />
         <p className="text-slate-500 md:order-1 dark:text-slate-300">
           Jul 2017 - Oct 2021
         </p>
         <Exper1 />
       </div>
-      <div className="md:flex-row justify-between mt-12 max-w-4xl items-start bg-white p-8 flex flex-col gap-4 md:gap-12 dark:bg-slate-900">
+      <div className="md:flex-row justify-between mt-12 max-w-4xl items-start bg-white p-8 flex flex-col gap-4 md:gap-12 dark:bg-slate-900 rounded-xl">
         <img src="./icons/logo-upwork.png" />
         <p className="text-slate-500 md:order-1 dark:text-slate-300">
           Dec 2015 - May 2017
